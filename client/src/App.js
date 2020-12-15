@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
@@ -16,7 +15,7 @@ function App() {
     const book = event.target.value;
     setBook(book);
   };
-//on clicking submit
+  //on clicking submit
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
@@ -73,8 +72,8 @@ function App() {
                         ? book.volumeInfo.imageLinks.thumbnail
                         : ""
                     }
-                    alt={book.volumeInfo.title} class="rounded img-fluid"
-                   
+                    alt={book.volumeInfo.title}
+                    class="rounded img-fluid"
                   />
                 </a>
                 <Card.Body className="tiles">
