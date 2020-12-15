@@ -7,14 +7,16 @@ import "./App.css";
 function App() {
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
+  //api token
   const [apikey, setApikey] = useState(
     "AIzaSyBC0txMLdecUflrK3FnpMgwKcazyyjGzMg"
   );
+  //on typing in search box
   const handleChange = (event) => {
     const book = event.target.value;
     setBook(book);
   };
-
+//on clicking submit
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
