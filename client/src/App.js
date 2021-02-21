@@ -8,7 +8,7 @@ function App() {
   const [result, setResult] = useState([]);
   //api token
   const [apikey, setApikey] = useState(
-    "AIzaSyBC0txMLdecUflrK3FnpMgwKcazyyjGzMg"
+    "AIzaSyC_iYAv1YTsXzUSWTQrMW1xAszm87TKK6E"
   );
   //on typing in search box
   const handleChange = (event) => {
