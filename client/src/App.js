@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
-import "./App.css";
 
 function App() {
   const [book, setBook] = useState("");
@@ -36,7 +35,7 @@ function App() {
       <div class="container my-4">
         <div class="row">
           <div class="col-lg-12 text-center text-monospace">
-            <h1>DWin's Library</h1>
+            <h1>DWin Library</h1>
           </div>
         </div>
         <form onSubmit={handleSubmit}>
